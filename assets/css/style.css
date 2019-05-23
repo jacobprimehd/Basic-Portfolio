@@ -13,6 +13,11 @@ body{
     top: 50%;
     float: right;
 }
+.navbutton:hover{
+    background-color: #666666;
+    color: #ffffff;
+    
+}
 .navbutton{
     color: #666666;
     margin: 5px;
@@ -20,6 +25,7 @@ body{
     text-decoration: none;
     float: right;
     justify-content: right;
+    padding: 5px;
 }
 
 .name{
@@ -49,9 +55,17 @@ body{
     border-top: 1px solid #4aaaa5;
 }
 .footer{
+    position: relative;
     background-color: #666666;
     width: 100%;
     height: 75px;
+    bottom: 0%;
     text-align: center;
-    text
+}
+#leftline{
+    border-left: 1px solid;
+}
+.footer-text{  
+    position: absolute;  
+    bottom: 0%;
 }
